@@ -86,7 +86,7 @@ namespace Deliverable1
                     else if ((result.KeyChar == 'n') || (result.KeyChar == 'N'))
                     {
                         Console.WriteLine("Goodbye!");
-                        Console.ReadKey();
+                        return;
                     }
                 }
 
